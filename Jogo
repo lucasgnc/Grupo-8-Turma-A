@@ -1,0 +1,175 @@
+package JOGO;
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+ 
+  class Jogo {
+	static int temp_dialog =25, temp_narrativa = 150, temp_transicao = 25;
+	 public static void main(String[] args)throws Exception{
+		Scanner entrada = new Scanner (System.in);
+		String name;
+		
+
+		        Digita("Entre nessa jornada com Cleitin o humano e construa sua própria nação.",TimeUnit.MILLISECONDS, temp_dialog); 
+		        System.out.println("\n");
+		        Digita("No ano 5000, a terra vivia o auge da tecnologia…Os humanos estavam no ápice de "
+		        + "sua inteligência, \nporém cientistas malucos, com uma ideia de fundir a inteligência humana "
+		        + "com animais ocasionaram \numa explosão nuclear na qual levou quase toda a raça humana a "
+		        + "extinção…O plano por sua vez deu certo animais \nganharam inteligência, mas grande parte "
+		        + "se revoltou e começaram a construir \nsua própria civilização a fim de tornar o mundo um só "
+		        + "para sua raça.\n5 de novembro de 5000… Cleitin te encontrar em uma caverna \nVocê com medo procura pegar pedras para se defender",TimeUnit.MILLISECONDS, temp_dialog);
+		        System.out.println("\n");
+		        Digita("Cleitin: Ei calma…Eu sou um humano também - ele tenta te acalmar ",TimeUnit.MILLISECONDS, temp_dialog);  
+		        System.out.println("\n");
+		        Digita("Cleitin: Me diga qual é o seu nome?",TimeUnit.MILLISECONDS, temp_dialog);
+		        name = entrada.next();
+		        System.out.println("\n");
+		        Digita("Usuário: Meu Nome é " + name ,TimeUnit.MILLISECONDS, temp_dialog);  
+		        System.out.println("\n");
+		        Digita("Cleitin olá " + name + "... estou em busca de um líder para reconstruir minha nação, você está aqui á quanto tempo?",TimeUnit.MILLISECONDS, temp_dialog);
+		        System.out.println("\n");
+		        Digita(name + ": já não sei a quanto tempo estou aqui, vivo aqui sozinho noite após noite",TimeUnit.MILLISECONDS, temp_dialog);
+		        System.out.println("\n");
+		        Digita("Cleitin: Venha comigo, não sei mas você parecer ter um espírito de líder… \nEstou tentando construir uma nação, mas a verdade é que não sei governar nada. "
+		        		+ "\nEntão me diz você aceita ser um líder?",TimeUnit.MILLISECONDS, temp_dialog);
+		        System.out.print("\n");
+		       
+		       
+		        Scanner s = new Scanner(System.in);
+		        Digita("Deseja Entrar Nessa Jornada? [sim/nao]" ,TimeUnit.MILLISECONDS, temp_dialog);
+		String lt= s.nextLine();
+
+		if(lt.equals("nao")) {
+		Digita("Ele morreu!",TimeUnit.MILLISECONDS, temp_dialog);
+		}else if(lt.equals("sim")) {
+		Digita("Tenho dúvidas sobre isso, mas acredito que seja melhor do que viver aqui sozinho.Vamos nessa!!",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin e Zezin começam a caminhar, Zezin logo percebe que Cleitin é um cara que não \npara de falar e ama fazer uma piada com as situaçõe…. após longos, longos,longos "
+				+ "\nminutos andando, chegam a ao pequeno vilarejo que Cleitin está construindo",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name + ":Nossa pensei que eu iria governar algo grandioso…",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin:Calma, Calma  isso é só um holograma…Temos que deixar a cidade disfarçada, somos muito fracos para sofrer um ataque, não temos estrutura para isso",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Entendo, desculpa por me precipitar! ",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin entra primeiro, logo depois Zezin vai atrás dele. Zezin fica admirado com tamanha "
+				+ "\nbeleza da cidade…Uma cidade de tamanho médio, construída em volta de duas grandes "
+				+ "\nrochas ,com uma ponte ligando as duas rochas, logo abaixo na parte térrea  casas e "
+				+ "\npequenos prédios ainda destruídos por conta da explosão, mas, com pessoas e crianças "
+				+ "\nfelizes por ainda ter um lar… Essa foi a primeira visão de Zezin sobre a cidade",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin: Gostou né? lolololol… Bem vamos andando quero te mostrar seus aposentos e "
+				+ "\nainda hoje te anunciar como novo líder de nossa nação",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name +":Confesso que estou um pouco animado, você disse que sou o escolhido, mas tenho "
+				+ "\nas minhas dúvidas…Talvez o povo nem me aceite",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin: Vamos, seja um pouco otimista vai dar bom!",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin leva Zezin para seus aposentos",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name  + ":onde fica meus aposentos?",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin: Nas Rochas",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name + ":orra, to importante lololololol. Tem elevador né?",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin:Não",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name + ":a para de brincadeira",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name + "a para de brincadeira",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin: não é brincadeira",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name +" Pensando bem posso morar por aqui embaixo mesmo, pra que esse exagero né… Sempre gostei de voar baixo",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin: Você é muito preguiçoso, é claro que tem elevador lolololol. Vamos logo para de enrolar",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Após chegarem nos aposentos, Cleitin mostra a sala de reunião. Uma sala enorme, com uma grande mesa com "
+				+ "\numa capacidade de até 20 lugares, uma janela com uma vista para "
+				+ "\na cidade, do começo ao fim",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name + "Nossa pra que essa ignorância toda - se referindo a mesa",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin: Essa é a mesa de reunião dos líderes",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name + "E quantos líderes tem nessa cidade?",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin: Contando com você?",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name + "Sim!!!",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin: Só 1 ",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name + " Ué lolololol",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin:Mas pensa esse é só o começo, logo você não terá paciência para tanto falatório aqui",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name + ":Estou confiante. Me mostre a cidade, quero entender tud…",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("?????: CLEITIN,CLEITIN,CLEITIN ESTÃO ATACANDO A NOSSA CIDADE!!!",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin:Calma, isso é impossível…Se fosse um ataque o meu sensor teria avisado",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("?????Sério mesmo? Então me explique isso - Mostra pela janela para Cleitin, o ataque acontecendo",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin: Droga, vamos lá Zezin!",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("????? :Deixa pra lá, não vai adiantar… é sempre a mesma coisa, já até foram embora."
+				+ "\nAliás, quem é esse aí?",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+        Digita(name + "O-oi sou o novo Líder!",TimeUnit.MILLISECONDS, temp_dialog);
+        System.out.println("\n");
+        Digita("????? :Duvido, estranho desse jeito… só vai afundar ainda mais a nossa cidade",TimeUnit.MILLISECONDS, temp_dialog);
+        System.out.println("\n");
+        Digita("Cleitin: Acredite, ele tem essa capacidade",TimeUnit.MILLISECONDS, temp_dialog);
+        System.out.println("\n");
+		Digita(name +"Já quero começar agir",TimeUnit.MILLISECONDS, temp_dialog);		
+		System.out.println("\n");
+		Digita("Cleitin: Gosto assim. E oque você quer fazer primeiro?",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita(name + "O jeito mais fácil para resolver isso é utilizando o método da Administração Clássica",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Cleitin: Qual opção voc e quer escolher? ",TimeUnit.MILLISECONDS, temp_dialog); 
+		System.out.println("\n");
+		Digita("Opção 1-Reconstruir as fazendas"
+				+ "\n(Ao escolher essa opção, voce tra-la dicipliana as pessoas de sua cidade e responsabilidade. Aqui é aplicadaa Adm. Classica)"
+				+ "\n[+ Alimentos; + Energia; +Força]",TimeUnit.MILLISECONDS, temp_dialog);
+		System.out.println("\n");
+		Digita("Opção 2- Reconstruir os muros"
+				+ "\n(Ao escolher essa opção, vocw tra-la autoridade e ordem para sua cidade, alem de aumneto de sua defesa)"
+				+ "\n[+Defea; -energia; +ordem]",TimeUnit.MILLISECONDS, temp_dialog);
+		  
+	     
+	        Digita("Deseja Entrar Nessa Jornada? [1/2]" ,TimeUnit.MILLISECONDS, temp_dialog);
+	
+	
+		
+	
+	}
+		Scanner s1 = new Scanner(System.in);
+		String lt1= s1.nextLine();
+
+		if(lt1.equals("1")) {
+		Digita("Ele morreu!",TimeUnit.MILLISECONDS, temp_dialog);
+		}
+		else if(lt1.equals("2")) {
+			
+		Digita("gghhghhghgh",TimeUnit.MILLISECONDS, temp_dialog);
+	
+	 }
+	
+	 }
+		
+	
+	public static void Digita(String mensagem, TimeUnit unit, long tempo_mensagem) throws InterruptedException {
+	        for (char caractere : mensagem.toCharArray()) {
+	        System.out.print(caractere);
+	        unit.sleep(tempo_mensagem);
+	        
+	}
+}}
+	 
+
+
