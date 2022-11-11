@@ -312,7 +312,7 @@ public void criarDialogo()
     String erro = "Erro 404: não foi possível encontrar o batman";
 
     // Cria um JFrame
-    JFrame frame = new JFrame("JOptionPane exemplo");
+    JFrame frame = new JFrame("JOptionPane eeexemplo");
 
     // Cria o JOptionPane por showMessageDialog
     JOptionPane.showMessageDialog(frame,
