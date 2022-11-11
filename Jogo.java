@@ -256,7 +256,7 @@ public class Jogo {
 
         System.out.println("\n");
 
-        System.out.println("Opção 1-Reconstruir as fazendas"
+        System.out.println("Opção 1-Reconstruir as Fazendas"
 
                 + "\n(Ao escolher essa opção, voce tra-la dicipliana as pessoas de sua cidade e responsabilidade. Aqui é aplicadaa Adm. Classica)"
 
