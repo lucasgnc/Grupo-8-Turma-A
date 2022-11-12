@@ -1,17 +1,15 @@
-package JOGO;
-
 import java.util.Scanner;
 
-
-public class Jogo {
-  public static void main(String[] args){
+   public class Entrada {
+  
+     public static void main(String[] args){
      Scanner menu = new Scanner (System.in);
 
-            System.out.print("|------------------------|\n");
-            System.out.print("| Opção 1 - Jogar        |\n");
-            System.out.print("| Opção 2 - Créditos     |\n");
-            System.out.print("| Opção 3 - Sair         |\n");
-            System.out.print("|------------------------|\n");
+            System.out.print("|--------------|\n");
+            System.out.print("| Jogar        |\n");
+            System.out.print("| Créditos     |\n");
+            System.out.print("| Sair         |\n");
+            System.out.print("|--------------|\n");
            
 
             int opcao = menu.nextInt();
@@ -19,7 +17,7 @@ public class Jogo {
 
             switch (opcao) {
             case 1:jogar();
-                System.out.print("\nInicio");
+                
                 break;
 
             case 2:
@@ -57,7 +55,7 @@ public class Jogo {
                 System.out.println("\n");
                 System.out.println("No ano 5000, a terra vivia o auge da tecnologia…Os humanos estavam no ápice de "
 
-                + "sua inteligência, \nporém cientistas malucos, com uma ideia de fundir a inteligência humana "
+                + "sua inteligência, \nporém cientistas malucos, com uma idéia de fundir a inteligência humana "
 
                 + "com animais ocasionaram \numa explosão nuclear na qual levou quase toda a raça humana a "
 
@@ -65,11 +63,11 @@ public class Jogo {
 
                 + "se revoltou e começaram a construir \nsua própria civilização a fim de tornar o mundo um só "
 
-                + "para sua raça.\n5 de novembro de 5000… Cleitin te encontrar em uma caverna \nVocê com medo procura pegar pedras para se defender");
+                + "para sua raça.\n5 de novembro de 5000… Cleitin te encontra em uma caverna \nvocê com medo procura pegar pedras para se defender");
 
                 System.out.println("\n");
 
-                System.out.println("Cleitin: Ei calma…Eu sou um humano também - ele tenta te acalmar ");  
+                System.out.println("Cleitin: Ei calma… Eu sou um humano também - ele tenta te acalmar ");  
 
                 System.out.println("\n");
 
@@ -78,7 +76,7 @@ public class Jogo {
 
                 System.out.println("\n");
 
-                System.out.println("Usuário: Meu Nome é " + name);  
+                System.out.println("Eu me chamo " + name);  
 
                 System.out.println("\n");
 
@@ -90,60 +88,56 @@ public class Jogo {
 
                 System.out.println("\n");
 
-                System.out.println("Cleitin: Venha comigo, não sei mas você parecer ter um espírito de líder… \nEstou tentando construir uma nação, mas a verdade é que não sei governar nada. "
-
-                        + "\nEntão me diz você aceita ser um líder?");
+                System.out.println("Cleitin: Venha comigo, não sei mas você parecer ter um espírito de líder… \nEstou tentando construir uma nação, mas a verdade é que não sei governar nada.");
 
                 System.out.print("\n");
 
                
-
-               
-
                 Scanner s = new Scanner(System.in);
 
-               System.out.println("Deseja Entrar Nessa Jornada? [sim/nao]");
+                System.out.println("Então me diz você aceita ser um líder? [sim/nao]");
 
-        String lt= s.nextLine();
+                String lt= s.nextLine();
 
 
         if(lt.equals("nao")) {
 
-        System.out.println("Ele morreu!");
+                System.out.println("Cleitin: Que pena, Você seria um grande líder, Continuarei minha jornada em busca de alguém para ajudar meu povo ");
 
         }else if(lt.equals("sim")) {
 
-        System.out.println("Tenho dúvidas sobre isso, mas acredito que seja melhor do que viver aqui sozinho.Vamos nessa!!");
+                System.out.println("Tenho dúvidas sobre isso, mas acredito que seja melhor do que viver aqui sozinho.Vamos nessa!!");
 
-        System.out.println("\n");
+                System.out.println("\n");
 
-        System.out.println("Cleitin e Zezin começam a caminhar, Zezin logo percebe que Cleitin é um cara que não \npara de falar e ama fazer uma piada com as situaçõe…. após longos, longos,longos "
+                System.out.println("Cleitin e " + name +" começam a caminhar, " + name + " logo percebe que Cleitin é um cara que não "
+                		+ "\npara de falar e ama fazer uma piada com as situaçõe… Após longos, longos,"
+                		+ "\nminutos andando, chegam ao pequeno vilarejo que Cleitin está construindo");
 
-                + "\nminutos andando, chegam a ao pequeno vilarejo que Cleitin está construindo");
+                System.out.println("\n");
 
-        System.out.println("\n");
+                System.out.println(name + ":Nossa pensei que eu iria governar algo grandioso…");
 
-        System.out.println(name + ":Nossa pensei que eu iria governar algo grandioso…");
+                System.out.println("\n");
 
-        System.out.println("\n");
+                System.out.println("Cleitin: Calma, Calma  isso é só um holograma… Temos que deixar a cidade disfarçada, somos muito fracos "
+                		+ "\npara sofrer um ataque, não temos estrutura para isso");
 
-        System.out.println("Cleitin:Calma, Calma  isso é só um holograma…Temos que deixar a cidade disfarçada, somos muito fracos para sofrer um ataque, não temos estrutura para isso");
+                System.out.println("\n");
 
-        System.out.println("\n");
+                System.out.println("Entendo, desculpa por me precipitar! ");
 
-        System.out.println("Entendo, desculpa por me precipitar! ");
+                System.out.println("\n");
 
-        System.out.println("\n");
+                System.out.println("Cleitin entra primeiro, logo depois" + name + "vai atrás dele." + name + "fica admirado com tamanha "
 
-        System.out.println("Cleitin entra primeiro, logo depois Zezin vai atrás dele. Zezin fica admirado com tamanha "
+                + "\nbeleza da cidade… Uma cidade, construída em volta de duas grandes "
 
-                + "\nbeleza da cidade…Uma cidade de tamanho médio, construída em volta de duas grandes "
-
-                + "\nrochas ,com uma ponte ligando as duas rochas, logo abaixo na parte térrea  casas e "
+                + "\nrochas ,com uma ponte ligando as duas rochas, logo abaixo na parte térrea um grande castelo, casas e "
 
                 + "\npequenos prédios ainda destruídos por conta da explosão, mas, com pessoas e crianças "
 
-                + "\nfelizes por ainda ter um lar… Essa foi a primeira visão de Zezin sobre a cidade");
+                + "\nfelizes por ainda ter um lar… Essa foi a primeira visão de" + name + "sobre a cidade");
 System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵◣ \r\n"
 		+ "∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵▇◣ \r\n"
 		+ "∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵▇▇◣ \r\n"
@@ -231,7 +225,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
         System.out.println(name +":Confesso que estou um pouco animado, você disse que sou o escolhido, mas tenho "
 
-                + "\nas minhas dúvidas…Talvez o povo nem me aceite");
+                + "\nas minhas dúvidas… Talvez o povo não me aceite");
 
         System.out.println("\n");
 
@@ -239,11 +233,11 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
         System.out.println("\n");
 
-        System.out.println("Cleitin leva Zezin para seus aposentos");
+        System.out.println("Cleitin leva " + name + " para seus aposentos");
 
         System.out.println("\n");
 
-        System.out.println(name  + ":onde fica meus aposentos?");
+        System.out.println(name  + ": Onde fica meus aposentos?");
 
         System.out.println("\n");
 
@@ -251,23 +245,19 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
         System.out.println("\n");
 
-        System.out.println(name + ":orra, to importante lololololol. Tem elevador né?");
+        System.out.println(name + ":Orra, to importante lololo. Tem elevador né?");
 
         System.out.println("\n");
 
-        System.out.println("Cleitin:Não");
+        System.out.println("Cleitin: Não");
 
         System.out.println("\n");
 
-        System.out.println(name + ":a para de brincadeira");
+        System.out.println(name + ": a para de brincadeira");
 
         System.out.println("\n");
 
-        System.out.println(name + "a para de brincadeira");
-
-        System.out.println("\n");
-
-        System.out.println("Cleitin: não é brincadeira");
+        System.out.println("Cleitin: Não é brincadeira");
 
         System.out.println("\n");
 
@@ -287,7 +277,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
         System.out.println("\n");
 
-       System.out.println(name + "Nossa pra que essa ignorância toda - se referindo a mesa");
+        System.out.println(name + "Nossa pra que essa ignorância toda - se referindo a mesa");
 
         System.out.println("\n");
 
@@ -303,7 +293,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
         System.out.println("\n");
 
-        System.out.println(name + "Sim!!!");
+        System.out.println(name + " Sim!!!");
 
         System.out.println("\n");
 
@@ -315,11 +305,11 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
         System.out.println("\n");
 
-        System.out.println("Cleitin:Mas pensa esse é só o começo, logo você não terá paciência para tanto falatório aqui");
+        System.out.println("Cleitin: Mas pensa esse é só o começo, logo você não terá paciência para tanto falatório aqui");
 
         System.out.println("\n");
 
-        System.out.println(name + ":Estou confiante. Me mostre a cidade, quero entender tud…");
+        System.out.println(name + ": Estou confiante. Me mostre a cidade, quero entender tudo");
 
         System.out.println("\n");
 
@@ -327,19 +317,19 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
         System.out.println("\n");
 
-        System.out.println("Cleitin:Calma, isso é impossível…Se fosse um ataque o meu sensor teria avisado");
+        System.out.println("Cleitin: Calma, isso é impossível… Se fosse um ataque o meu sensor teria avisado");
 
         System.out.println("\n");
 
-        System.out.println("?????Sério mesmo? Então me explique isso - Mostra pela janela para Cleitin, o ataque acontecendo");
+        System.out.println("????? Sério mesmo? Então me explique isso - Mostra pela janela para Cleitin, o ataque acontecendo");
 
         System.out.println("\n");
 
-        System.out.println("Cleitin: Droga, vamos lá Zezin!");
+        System.out.println("Cleitin: Droga, vamos lá" + name + "!");
 
         System.out.println("\n");
 
-        System.out.println("????? :Deixa pra lá, não vai adiantar… é sempre a mesma coisa, já até foram embora."
+        System.out.println("????? : Deixa pra lá, não vai adiantar… é sempre a mesma coisa, já até foram embora."
 
                 + "\nAliás, quem é esse aí?");
 
@@ -349,66 +339,83 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
         System.out.println("\n");
 
-        System.out.println("????? :Duvido, estranho desse jeito… só vai afundar ainda mais a nossa cidade");
+        System.out.println("????? : Duvido, estranho desse jeito… só vai afundar ainda mais a nossa cidade");
 
         System.out.println("\n");
 
-        System.out.println("Cleitin: Acredite, ele tem essa capacidade");
+        System.out.println("Cleitin: Acredite, ele tem capacidade para nos liderar");
 
         System.out.println("\n");
 
-        System.out.println(name +"Já quero começar agir");        
-
+        System.out.println(name +": Me diga qual seu nome? ");
         System.out.println("\n");
-
-        System.out.println("Cleitin: Gosto assim. E oque você quer fazer primeiro?");
-
+        System.out.println("Me chamo Leona... sou tesoureira da cidade");
         System.out.println("\n");
-
-        System.out.println(name + "O jeito mais fácil para resolver isso é utilizando o método da Administração Clássica");
-
+        System.out.println(name +": Acho que vou precisar de voce...");
         System.out.println("\n");
+        
+        System.out.println("Deseja recrutar Leona como tesoureira ou deixar as finaças por sua conta? [sim/nao]" );
+        
+        }
 
-        System.out.println("Cleitin: Qual opção voc e quer escolher? ");
+        Scanner s3 = new Scanner(System.in);
 
-        System.out.println("\n");
+        String lt3= s3.nextLine();
 
-        System.out.println("Opção 1-Reconstruir as Fazendas"
 
-                + "\n(Ao escolher essa opção, voce tra-la dicipliana as pessoas de sua cidade e responsabilidade. Aqui é aplicadaa Adm. Classica)"
+        if(lt3.equals("nao")) {
 
-                + "\n[+ Alimentos; + Energia; +Força]");
-
-        System.out.println("\n");
-
-        System.out.println("Opção 2- Reconstruir os muros"
-
-                + "\n(Ao escolher essa opção, vocw tra-la autoridade e ordem para sua cidade, alem de aumneto de sua defesa)"
-
-                + "\n[+Defea; -energia; +ordem]");
-
-         
-
-         
-
-            System.out.println("Deseja Entrar Nessa Jornada? [1/2]" );
+        System.out.println("Voce levou a cidade a ruina (As vezes é necessario trabalho em equipe para que seus negócios avance!");
 
         }
 
-        Scanner s1 = new Scanner(System.in);
-
-        String lt1= s1.nextLine();
-
-
-        if(lt1.equals("1")) {
-
-        System.out.println("Ele morreu!");
-
-        }
-
-        else if(lt1.equals("2")) {
+        else if(lt3.equals("sim")) {
 
            
 
-        System.out.println("gghhghhghgh");
+        System.out.println("Leona é sua nova tesoureira!! Leona estara presente em suas negociações");
+        System.out.println("\n");
+        System.out.println(name +": Já quero começar agir");        
+        System.out.println("\n");
+        System.out.println("Cleitin: Gosto assim. E o que você quer fazer primeiro?");
+        System.out.println("\n");
+        System.out.println("Leona: Droga!!! Os animais estão vindo de novo");
+        System.out.println("\n");
+        System.out.println(name +":Acho que minha primeira atitude deve ser falar com eles");
+        System.out.println("\n");
+        System.out.println("Entao" + name + " se dirige ao comandante dos animais.. com muito medo obiviamente. Em uma jogada estratégica ele propoem uma troca");
+        System.out.println("\n");
+        System.out.println(name+"Qual é seu nome?");
+        System.out.println("\n");
+        System.out.println("Me chamo Ganicos!! Sai da minha frente ou seja destruido junto com sua cidade!");
+        System.out.println("\n");
+        System.out.println(name+": É o seguinte Ganicos, eu sou o novo lider desta cidade! E estou cansdo de ver você "
+        		+ "\nnos atacando só hoje foram dois ataques... Quero te propor um acordo!");
+        System.out.println("\n");
+        System.out.println("Ganicos: E qual seria? Seu verme");
+        System.out.println("\n");
+        System.out.println(name +": Temos recursos e você tem homens... Nossa cidade tem rochas podemos escavar e te dar "
+        		+ "\nrecuros e você me da alguns homens" );
+        System.out.println("\n");
+        System.out.println("Ganicos: E se você nos der recursos e nós te damos paz e proteção");
+        System.out.println("\n");
+        System.out.println("Qual opção voce deseja? Digite 1 para aceitar a proposta de Ganicos ou 2 Para a sua Idéia!");
+        }
+
+        Scanner s2 = new Scanner(System.in);
+        String lt2= s2.nextLine();
+
+
+        if(lt2.equals("1")) {
+
+        System.out.println("Você cumpriu com sua parte do acordo, porem Ganicos é desleal... Começou a escravisar seu povo e você foi a ruina"
+        		+ "\n(Não se pode aceitar qualquer acordo, busque sempre um ponto seguro em suas negociações)");
+
+        }
+
+        else if(lt2.equals("2")) {
+
+           
+
+        System.out.println("Voce foi insistente em sua decisão, Ganicos reconheceu sua atitude e cumpriu com o acordo");
         }}}
