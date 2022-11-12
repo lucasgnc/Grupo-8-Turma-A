@@ -1,11 +1,51 @@
-package com.mycompany.rpg;
+package JOGO;
 
 import java.util.Scanner;
 
 
 public class Jogo {
-     public static void main(String[] args){
-     Scanner entrada = new Scanner (System.in);
+  public static void main(String[] args){
+     Scanner menu = new Scanner (System.in);
+
+    	         System.out.print("|------------------------|\n");
+    	         System.out.print("| Opção 1 - Jogar        |\n");
+    	         System.out.print("| Opção 2 - Créditos     |\n");
+    	         System.out.print("| Opção 3 - Sair         |\n");
+                 System.out.print("|------------------------|\n");
+    	        
+
+    	         int opcao = menu.nextInt();
+
+
+    	         switch (opcao) {
+    	         case 1: jogar();
+    	             System.out.print("\nInicio");
+    	             break;
+
+    	         case 2:
+    	             System.out.print("\nDesenvolvedores: \nLucas Silva \nJhonatan Silva \nHélio \nCélia\n");
+    	             break;
+
+    	         case 3:
+    	             System.out.print("\nAté Mais\n");
+    	             break;
+    	             
+    	        
+    	          default:
+    	             System.out.print("\nOpção Inválida!");
+    	             menu.close();
+
+    	         
+    	          
+    	                    
+    	         }
+    	     }
+    	 
+    	 
+    	 
+public static void jogar() { 
+    	 
+    	Scanner entrada = new Scanner (System.in);
 
         String name;
 
@@ -276,15 +316,7 @@ public class Jogo {
 
             System.out.println("Deseja Entrar Nessa Jornada? [1/2]" );
 
-    
-
-    
-
-        
-
-    
-
-    }
+        }
 
         Scanner s1 = new Scanner(System.in);
 
@@ -305,35 +337,4 @@ public class Jogo {
 
     
 
-     }
-public void criarDialogo()
-  {
-   // Algo que deseja mostrar (aviso, mensagem de erro)
-    String erro = "Erro 404: não foi possível encontrar o batman";
-
-    // Cria um JFrame
-    JFrame frame = new JFrame("JOptionPane eeexemplo");
-
-    // Cria o JOptionPane por showMessageDialog
-    JOptionPane.showMessageDialog(frame,
-        "Houve um problema ao procurar o batman:\n\n '" + erro + "'.", //mensagem
-        "Erro 404", // titulo da janela
-        JOptionPane.INFORMATION_MESSAGE);
-    System.exit(0);
-  }
-    
-
-     }
-
-        
-
-    
-
-    
-
-            
-
-    }
-
-
-
+     }}}
