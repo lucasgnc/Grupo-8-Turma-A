@@ -1,0 +1,49 @@
+import java.util.Scanner;
+  class Main {
+    public static void main (String[] args){
+    Scanner entrada = new Scanner(System.in);  
+    
+      String operacaoStr;
+    char operacao;
+    boolean tacerto = false; 
+        
+     do {
+                
+System.out.println("de acordo com as situações vistas por " + name + "o que é certo fazer?");
+                
+System.out.println("A) 110111");
+System.out.println("B) 110111");
+System.out.println("C) 110111");
+System.out.println("D) 110111");
+System.out.println("E) 110111");
+               
+System.out.println("Informe sua resposta: ");
+                
+  operacaoStr = entrada.next();
+  operacao = operacaoStr .charAt(0);
+                
+    switch(operacao) {
+         case 'a':
+         case 'A':
+System.out.println("Resposta errada :( ");
+         break;
+         case 'b':
+         case 'B':
+System.out.println("Respota correta!!! :D");
+         break;
+         case 'c':
+         case 'C':
+ System.out.println("Resposta errada :( ");
+         break;
+         case 'd':
+         case 'D':
+ System.out.println("Resposta errada :(");
+         break;
+         case 'e':
+         case 'E':
+System.out.println("Resposta errada :(");
+         break;
+                     }                    
+         }while(!tacerto);
+    }
+    }
