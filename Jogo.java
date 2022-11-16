@@ -635,7 +635,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
                     	  System.out.println("\n");
                     	  
                     	  System.out.println("(Em adm. é necessario mudar suas estrategias para que aquilo que voce esta "
-                    	  		+ "\nfazendo tenha mais restorno ou seja mais lucro)");
+                    	  		+ "\nfazendo tenha mais restorno ou seja mais lucro!)");
                       }
                   
                       
