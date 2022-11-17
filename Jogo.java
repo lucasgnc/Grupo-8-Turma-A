@@ -574,7 +574,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
                     	  		+ "\nfazendo tenha mais restorno ou seja mais lucrativo!)");
                       }
                   
-                      else if lt7.equals("nao")){
+                      else if (lt7.equals("nao")){
                     	  
                     	  System.out.println("Você perdeu");
                     	  
