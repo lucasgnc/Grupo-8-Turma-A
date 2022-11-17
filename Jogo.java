@@ -7,10 +7,12 @@ public class Jogo {
   public static void main(String[] args){
   
 	  Scanner menu = new Scanner (System.in);
-  
-         System.out.print("| Jogar        |\n");
-         System.out.print("| Créditos     |\n");
-         System.out.print("| Sair         |\n");
+	     System.out.print("SCIENTIFIC WAR\n");
+	     System.out.print("\n");
+	     System.out.print("|--------------|\n");
+         System.out.print("| 1-Jogar      |\n");
+         System.out.print("| 2-Créditos   |\n");
+         System.out.print("| 3-Sair       |\n");
          System.out.print("|--------------|\n");
         
 
@@ -23,7 +25,7 @@ public class Jogo {
              break;
 
          case 2:
-             System.out.print("\nDesenvolvedores: \nLucas Silva \nJhonatan Silva \nHélio \nCélia\n");
+             System.out.print("\nDesenvolvedores: \nLucas Silva \nJhonatan Silva \nHélio César \nCélia Farias\n");
              break;
 
          case 3:
@@ -55,13 +57,13 @@ public static void jogar() {
 
              System.out.println("Entre nessa jornada com Cleitin o humano e construa sua própria nação.");
              System.out.println("\n");
-             System.out.println("No ano 5000, a terra vivia o auge da tecnologia…Os humanos estavam no ápice de "
+             System.out.println("No ano 5000, a terra vivia o auge da tecnologia… Os humanos estavam no ápice de "
 
              + "sua inteligência, \nporém cientistas malucos, com uma idéia de fundir a inteligência humana "
 
              + "com animais ocasionaram \numa explosão nuclear na qual levou quase toda a raça humana a "
 
-             + "extinção…O plano por sua vez deu certo animais \nganharam inteligência, mas grande parte "
+             + "extinção… O plano por sua vez deu certo animais \nganharam inteligência, mas grande parte "
 
              + "se revoltou e começaram a construir \nsua própria civilização a fim de tornar o mundo um só "
 
@@ -82,7 +84,7 @@ public static void jogar() {
 
              System.out.println("\n");
 
-             System.out.println("Cleitin olá " + name + "... estou em busca de um líder para reconstruir minha nação, você está aqui á quanto tempo?");
+             System.out.println("Cleitin: olá " + name + "... estou em busca de um líder para reconstruir minha nação, você está aqui á quanto tempo?");
 
              System.out.println("\n");
 
@@ -90,9 +92,9 @@ public static void jogar() {
 
              System.out.println("\n");
 
-             System.out.println("Cleitin: Venha comigo, não sei mas você parecer ter um espírito de líder… \nEstou tentando construir uma nação, mas a verdade é que não sei governar nada.");
+             System.out.println("Cleitin: Venha comigo, não sei mas você parecer ter um espírito de líder… \nestou tentando construir uma nação, mas a verdade é que não sei governar nada.");
 
-             System.out.print("\n");
+             System.out.println("\n");
 
             
              Scanner s = new Scanner(System.in);
@@ -104,7 +106,7 @@ public static void jogar() {
 
      if(lt.equals("nao")) {
 
-             System.out.println("Cleitin: Que pena, Você seria um grande líder, Continuarei minha jornada em busca de alguém para ajudar meu povo ");
+             System.out.println("Cleitin: Que pena, Você seria um grande líder, Continuarei minha jornada em busca de alguém para ajudar meu povo.");
 
      }else if(lt.equals("sim")) {
 
@@ -127,15 +129,15 @@ public static void jogar() {
 
              System.out.println("\n");
 
-             System.out.println("Entendo, desculpa por me precipitar! ");
+             System.out.println( name + ": Entendo, desculpa por me precipitar! ");
 
              System.out.println("\n");
 
              System.out.println("Cleitin entra primeiro, logo depois" + name + "vai atrás dele." + name + "fica admirado com tamanha "
 
-             + "\nbeleza da cidade… Uma cidade, construída em volta de duas grandes "
+             + "\nbeleza da cidade… Uma cidade construída em volta de duas grandes "
 
-             + "\nrochas ,com uma ponte ligando as duas rochas, logo abaixo na parte térrea um grande castelo, casas e "
+             + "\nrochas, com uma ponte ligando as duas rochas, logo abaixo na parte térrea um grande castelo, casas e "
 
              + "\npequenos prédios ainda destruídos por conta da explosão, mas, com pessoas e crianças "
 
@@ -219,13 +221,13 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
      
      System.out.println("\n");
 
-     System.out.println("Cleitin: Gostou né? lolololol… Bem, nos nos chmamos raiders.Vamos andando quero te mostrar seus aposentos e "
+     System.out.println("Cleitin: Gostou né? LoL… Bem, nós nos chamamos Raiders. Vamos andando quero te mostrar seus aposentos e "
 
              + "\nainda hoje te anunciar como novo líder de nossa nação");
 
      System.out.println("\n");
 
-     System.out.println(name +":Confesso que estou um pouco animado, você disse que sou o escolhido, mas tenho "
+     System.out.println(name +": Confesso que estou um pouco animado, você disse que sou o escolhido, mas tenho "
 
              + "\nas minhas dúvidas… Talvez o povo não me aceite");
 
@@ -247,7 +249,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
      System.out.println("\n");
 
-     System.out.println(name + ":Orra, to importante lololo. Tem elevador né?");
+     System.out.println(name + ": Caramba, to importante LoL. Tem elevador né?");
 
      System.out.println("\n");
 
@@ -267,7 +269,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
      System.out.println("\n");
 
-     System.out.println("Cleitin: Você é muito preguiçoso, é claro que tem elevador lolololol. Vamos logo para de enrolar");
+     System.out.println("Cleitin: Você é muito preguiçoso, é claro que tem elevador LoL. Vamos logo para de enrolar");
 
      System.out.println("\n");
 
@@ -283,7 +285,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
      System.out.println("\n");
 
-    System.out.println("Cleitin: Essa é a mesa de reunião dos líderes");
+     System.out.println("Cleitin: Essa é a mesa de reunião dos líderes");
 
      System.out.println("\n");
 
@@ -295,7 +297,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
      System.out.println("\n");
 
-     System.out.println(name + " Sim!!!");
+     System.out.println(name + " Sim!!");
 
      System.out.println("\n");
 
@@ -353,10 +355,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
      System.out.println("\n");
      System.out.println("Me chamo Leona... sou tesoureira da cidade");
      System.out.println("\n");
-     System.out.println(name +": Acho que vou precisar de voce...");
-     System.out.println("\n");
-     
-     System.out.println("Deseja recrutar Leona como tesoureira ou deixar as finaças por sua conta? [sim/nao]" );
+     System.out.println("Deseja recrutar Leona como tesoureira ou deixar as finanças por sua conta? [sim/nao]" );
      
      }
 
@@ -367,7 +366,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
      if(lt3.equals("nao")) {
 
-     System.out.println("Voce levou a cidade a ruina (As vezes é necessario trabalho em equipe para que seus negócios avance!");
+     System.out.println("Voce levou a cidade a ruina (As vezes é nescessário trabalho em equipe para que seus negócios avance!");
 
      }
 
@@ -375,7 +374,7 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
 
         
 
-     System.out.println("Leona é sua nova tesoureira!! Leona estara presente em suas negociações");
+     System.out.println("Leona é sua nova tesoureira!! Leona estará presente em suas negociações");
      System.out.println("\n");
      System.out.println(name +": Já quero começar agir");        
      System.out.println("\n");
@@ -383,16 +382,15 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
      System.out.println("\n");
      System.out.println("Leona: Droga!!! Os animais estão vindo de novo");
      System.out.println("\n");
-     System.out.println(name +":Acho que minha primeira atitude deve ser falar com eles");
+     System.out.println(name +": Acho que minha primeira atitude deve ser falar com eles");
      System.out.println("\n");
-     
-     System.out.println("Entao" + name + " se dirige ao comandante dos animais.. com muito medo obiviamente. Em uma jogada estratégica ele propoem uma troca");
+     System.out.println("Então" + name + " se dirige ao comandante dos animais.. com muito medo obiviamente. Em uma jogada estratégica ele propoem uma troca");
      System.out.println("\n");
      System.out.println(name+"Qual é seu nome?");
      System.out.println("\n");
      System.out.println("Me chamo Ganicos!! Sai da minha frente ou seja destruido junto com sua cidade!");
      System.out.println("\n");
-     System.out.println(name+": É o seguinte Ganicos, eu sou o novo lider desta cidade! E estou cansdo de ver você "
+     System.out.println(name+": É o seguinte Ganicos, eu sou o novo lider desta cidade! E estou cansado de ver você "
      		+ "\nnos atacando só hoje foram dois ataques... Quero te propor um acordo!");
      System.out.println("\n");
      System.out.println("Ganicos: E qual seria? Seu verme");
@@ -402,68 +400,54 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
      System.out.println("\n");
      System.out.println("Ganicos: E se você nos der recursos e nós te damos paz e proteção");
      System.out.println("\n");
-     System.out.println("Qual opção voce deseja? Digite 1 para aceitar a proposta de Ganicos ou 2 Para a sua Idéia!");
+     System.out.println("Qual opção voce deseja? Digite sim para aceitar a proposta de Ganicos ou não Para a sua Idéia!");
      }
 
      Scanner s2 = new Scanner(System.in);
      String lt2= s2.nextLine();
 
 
-     if(lt2.equals("1")) {
+     if(lt2.equals("sim")) {
 
      System.out.println("Você cumpriu com sua parte do acordo, porem Ganicos é desleal... Começou a escravisar seu povo e você foi a ruina"
      		+ "\n(Não se pode aceitar qualquer acordo, busque sempre um ponto seguro em suas negociações)");
 
      }
 
-     else if(lt3.equals("sim")) {
+     else if(lt2.equals("nao")) {
      
-    	 System.out.println("Voce foi insistente em sua decisão, Ganicos reconheceu sua atitude e cumpriu com o acordo "
-     		+ "\n(Em adm. devemos percistit nas maiores dificuldades, pois só assim se garante um resultado");
+     System.out.println("Você foi insistente em sua decisão, Ganicos reconheceu sua atitude e cumpriu com o acordo "
+     		+ "\n(Em adm. devemos persistir nas maiores dificuldades, pois só assim se garante um resultado");
      System.out.println("\n");
-     System.out.println("Leona: Cramaba"+ name + " voce mandou muito bem! Nunca vi alguem enfrentar Ganicos desta maneira");
+     System.out.println("Leona: Caramba" + name + " você mandou muito bem! Nunca vi alguem enfrentar Ganicos desta maneira");
      System.out.println("\n");
-     System.out.println(name + ":Obrigado Leona, mas agora  temos que decidir quantos deles se juntara a nos!) ");
+     System.out.println(name + ": Obrigado Leona, mas agora  temos que decidir quantos deles se juntará a nós!) ");
      System.out.println("\n");
-     System.out.println("Leona:" + name + ": Como tesoureia da cidade sugiro que voce pegue de 3 à 7."
-     		+ "\nOs Spurs são uma raça que come muito durante o dia e nos ainda nao temos tantas reservas assim!");
-     System.out.println("Escolha quantos Spurs(raça de Ganicos) se juntara a voce");
+     System.out.println("Leona: " + name + " Como tesoureia da cidade sugiro que você pegue de 3 à 7."
+     		+ "\nOs Spurs são uma raça que come muito durante o dia e nós ainda não temos tantas reservas assim!");
+     System.out.println("Escolha quantos Spurs(raça de Ganicos) se juntará a você");
      
          Scanner s4 = new Scanner(System.in);
            spurs = entrada.nextDouble();
      
      
      System.out.println("O spurs é:" + spurs + "s");
-     
      System.out.println("\n");
-     
-     System.out.println("Agora que temos os"  + spurs +  " Spurs com nos, oque vamos fazer?");
-     
+     System.out.println("Agora que temos os"  + spurs +  " Spurs conosco, o que vamos fazer?");
      System.out.println("\n");
-     
      System.out.println("Cleitin: Devemos tomar uma decisão agora o que você quer fazer"  + name +  "?");
-          
      System.out.println("\n");
-     
      System.out.println("Você deve ecolher entre reconstuir a muralha envolta de sua ciade ou reconstruir casas destruidas");
-     
      System.out.println("\n");
-    
      System.out.println("AO RECONSTRUIR AS MURALHAS ENVOLTA DA CIDADE."
-     		+ "        \n(Voce mostra ser um lider forte e seguro de suas decisões, alem de mostrar poder para outros reinos proximos)");
-    
-   
+     		+ "        \n(Você mostra ser um líder forte e seguro de suas decisões, além de mostrar poder para outros reinos próximos)");
      System.out.println("\n");
-   
      System.out.println("AO RECONSTRUIR CASAS DESTRUIDAS."
-     		        + "\n(Você mostra ser um lider que se preucupa com seus suditos e forte diante de todas as situações)");
+     		        + "\n(Você mostra ser um líder que se preucupa com seus suditos e forte diante de todas as situações)");
      System.out.println("\n");
-     
-     System.out.println("Cleitin: Qual sera sua decisão? Muralhas ou Casas Destruidas");
-     
+     System.out.println("Cleitin: Qual será sua decisão? Muralhas ou Casas Destruidas");
      System.out.println("\n");
-     
-     System.out.println("Digite Muralhas ou Casa para sua ddecisão");
+     System.out.println("Digite Muralhas ou Casas para sua decisão");
      
      }
      
@@ -475,48 +459,35 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
     	 
     	   System.out.println("Cleitin: Confiamos na sua decisão!");
        
-     
-    	 if (lt5.equals("casas")) 
+       }
+    	  
+       else if (lt5.equals("casas")) {
         
     		 System.out.println("Cleitin:Boa escolha, confiamos em ti!");
     	 
-    	 {
+    	 
        
-    		 System.out.println("\n");
-       
-       System.out.println("Após meses negociando com Ganicos, voce ganha reconhecimento de outros Lords..."
+       System.out.println("\n");
+       System.out.println("Após meses negociando com Ganicos, você ganha reconhecimento de outros Lords..."
        		+ "\nDentre eles Dantes, um animal muito inteligente e ganancioso. Com um reino maior que o seu e de Ganicos");
-       
        System.out.println("\n");
-       
        System.out.println("Cleitin:" + name + " recebi noticias que Dantes esta vindo... acredito que ele não quer paz!");
-       
        System.out.println("\n");
-       
        System.out.println(name + ": Chame os" + spurs + "Spurs para vir comigo, pode ser perigoso quero que fique aqui!");
-       
        System.out.println("\n");
-       
-       System.out.println("Voce vai de encontro a Dantes, certo de que poderia acontecer algo..."
-       		+ "\nMas tranquilo pois tinha" + spurs + "com voce");
-       
+       System.out.println("Você vai de encontro a Dantes, certo de que poderia acontecer algo..."
+       		+ "\nMas tranquilo pois tinha" + spurs + "com você");
        System.out.println("\n");
-       
        System.out.println("Ao chegar de encontro com Dantes..."
-       		+ "\nVoce se depara com um gigante extremamnete bruto, obviamnete um animal que sofreu mutação,"
-       		+ "\nse parecia muito com um renoceronte. São conhecidos como Venezias");
+       		+ "\nVocê se depara com um gigante extremamente bruto, obviamente um animal que sofreu mutação,"
+       		+ "\nse parecia muito com um rinoceronte. São conhecidos como Venezias");
        
        System.out.println("\n");
-       
        System.out.println("Com uma voz muito grossa ele começa a falar");
-       
        System.out.println("\n");
-       
-       System.out.println("Dantes:voce é" + name + "aquele que foi escolhido para refazer uma nação?");
-       
+       System.out.println("Dantes: você é" + name + " aquele que foi escolhido para refazer uma nação?");
        System.out.println("\n");
-       
-       System.out.println("Digiite [sim/nao]");
+       System.out.println("Digite [sim/nao]");
          
     	 }
        
@@ -527,120 +498,91 @@ System.out.print("∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵∵�
        if(lt6.equals("nao")) {
                 
             	   System.out.println("Dantes, percebeu que voce era um covarde e o exterminou sem nem pensar"
-                 		+ "\n(Voce levou sua cidade a ruina)");
+                 		+ "\n(Você levou sua cidade á ruina)");
                   }
                 
                else if (lt6.equals("sim")) {
                 	 
-                	  System.out.println("Dantes viu coragem em ti e começou a falar");
-
-
-                	  System.out.println("Dantes:Sei que tem uma alinça com Ganicos e fornece recursos a ele."
-                	  		+ "\n Mas quero entrar nessa tambem, coloque seus homens para trabalahr para mim");
-                	  
-                	  System.out.println("\n");
-                	  
-                	  System.out.println(name + ": Não é assim que fuciona nao vou virar seu escravo!!!");
-                	  
-                	  System.out.println("\n");
-                	  
-                	  System.out.println("Dantes: Apartir de hoje sera assim! Sou maior e mais forte e quero expandir meu territorio");
-                	  
-                	  System.out.println("\n");
-                	  
-                	  System.out.println("Deseja confrontar Dantes? [sim/nao]");
+        System.out.println("Dantes viu coragem em ti e começou a falar");
+        System.out.println("\n");
+        System.out.println("Dantes: Sei que tem uma alinça com Ganicos e fornece recursos a ele."
+                	  		+ "\n Mas quero fazer parte desse acordo também, coloque seus homens para trabalhar para mim");
+        System.out.println("\n");
+        System.out.println(name + ": Não é assim que fuciona não vou virar seu escravo!!!");
+        System.out.println("\n");
+        System.out.println("Dantes: Apartir de hoje será assim! Sou maior e mais forte e quero expandir meu território");
+        System.out.println("\n");
+        System.out.println("Deseja confrontar Dantes? [sim/nao]");
                }
                 	  Scanner s7 = new Scanner(System.in);
                       
                       String lt7= s7.nextLine();
                       if(lt7.equals("nao")) {
-                    	  System.out.println("Que lider é voce que baixa a cabeça?(Por conta de sua decisao, seu povo foi escravisado");
-                    	  
-                    	  System.out.println("Ocasiões como essa exige pé no chão, ao adm. as coisas mostre ser decidido");
+        System.out.println("Que lider é você que baixa a cabeça?(Por conta de sua decisão, seu povo foi escravizado");
+        System.out.println("\n");
+        System.out.println("Ocasiões como essa exige pé no chão, ao administrador. as coisas mostre ser decidido");
 
                       }
                       
                       else if (lt7.equals("sim")) {
-                    	  System.out.println("Vejo que voce é muito arrogante, não vou fazer negocios com voce."
+
+        System.out.println("Vejo que você é muito arrogante, não vou fazer negócios com você."
                     	  		+ "\nMas tenho interesse em seus aliados vão me servir de grande ajuda na minha cidade");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("Dantes:Arrogante!? Como ousa falar assim comigo? Vamos fazer de tal manerira");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("O meu melhor soldado contra seus Spurs, quando vencermos sua cidade sera minha se perdermos 10 dos meus sera seu!");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println(name + ":Não vou colocar minha cidade em risco desta maneira, ae perdemos te darei 2k de recurso meu");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("Digite C para comçar o combate");
+        System.out.println("\n");
+        System.out.println("Dantes: Arrogante! ? Como ousa falar assim comigo? Vamos fazer de tal manerira");
+        System.out.println("\n");
+        System.out.println("O meu melhor soldado contra seus Spurs, quando vencermos sua cidade sera minha se perdermos 10 dos meus será seu!");
+        System.out.println("\n");
+        System.out.println(name + ":Não vou colocar minha cidade em risco desta maneira, se perdemos te darei 2k de recurso meu");
+        System.out.println("\n");
+        System.out.println("Digite aceito para comçar o combate ou nao para se render");
                      }
-                   Scanner s8 = new Scanner(System.in);
-                      
-                      String lt8= s8.nextLine();
-                      if(lt7.equals("sim")) {
-                    	  raiders = (spurs - dantes);
-                    	  
-                    	  System.out.println("Voce ganhou  so braram " + raiders );
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("Uma batalha dura foi travada contra 1 venezia, o soldado mais forte de Dantes um ser com uma força de 3 homens");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("Dantes:Voce foi muito estrategico trazendo " + spurs + "com voce. Tome leve o 10 com voce!"
-                    	  		+ "\nMas saiba que isto nao acabou vou atras de voce!");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("Parabens!Voce ganhou 10 Venezias agora eles se tornaram Raiders!");
-                    	 
-                    	  System.out.println("\n");
-                    	 
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("Voce retorna a sua nação.E ninguem entende nada quando ve voce com mais 10 atras de ti");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("Sua cidade esta ficando maior +++");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("Cleitin: Olha só olha la. Parece que o grande " + name + "é cheio de estrategias");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("Cleitin: me diga o que voce vai fazer agora?");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println(name + ": Temos que nos fortalecer, vamos atras de novas alianças e almentar nossos lucros");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println(name + ":Vamos parar de dar recursos ao Ganicos e começar a vender estamos "
-                    	  		+ "\nfortes e precisamos fazer isso agora");
-                    	  
-                    	  System.out.println("Leona: Otima escolha" + name + "precisamos mudar nosso jeito de pensar");
-                    	  
-                    	  System.out.println("\n");
-                    	  
-                    	  System.out.println("(Em adm. é necessario mudar suas estrategias para que aquilo que voce esta "
-                    	  		+ "\nfazendo tenha mais restorno ou seja mais lucro!)");
-                      }
                   
                       
+                      Scanner s8 = new Scanner(System.in);
+                      
+                      String lt8= s8.nextLine();
+                      
+                      if(lt7.equals("aceito")) {
+                    	  raiders = (spurs - dantes);
+                    	  
+        System.out.println("Você ganhou sobraram " + raiders );
+        System.out.println("\n");
+        System.out.println("Uma batalha dura foi travada contra 1 venezia, o soldado mais forte de Dantes um ser com uma força de 3 homens");
+        System.out.println("\n");
+        System.out.println("Dantes: Você foi muito estratégico trazendo " + spurs + "com você. Tome leve os dez com você!"
+                    	  		+ "\nMas saiba que isto não acabou vou atrás de você!");
+        System.out.println("\n");
+        System.out.println("Parabens! Você ganhou 10 Venezias agora eles se tornaram Raiders!");
+        System.out.println("\n");
+        System.out.println("Você retorna a sua nação.E ninguem entende nada quando vê você com mais 10 atrás de ti");
+        System.out.println("\n");
+        System.out.println("Sua cidade está ficando maior +++");
+        System.out.println("\n");
+        System.out.println("Cleitin: Olha só olha lá. Parece que o grande " + name + " é cheio de estratégias");
+        System.out.println("\n");
+        System.out.println("Cleitin: me diga o que você vai fazer agora?");
+        System.out.println("\n");
+        System.out.println(name + ": Temos que nos fortalecer, vamos atrás de novas alianças e aumentar nossos lucros");
+        System.out.println("\n");
+        System.out.println(name + ": Vamos parar de dar recursos ao Ganicos e começar a vender estamos "
+                    	  		+ "\nfortes e precisamos fazer isso agora");
+        System.out.println("\n");        	  
+        System.out.println("Leona: Ótima escolha" + name + " precisamos mudar nosso jeito de pensar");
+        System.out.println("\n");
+        System.out.println("(Em administração. é necessario mudar suas estratégias para que aquilo que você está "
+                    	  		+ "\nfazendo tenha mais restorno ou seja mais lucrativo!)");
+                      }
+                  
+                      else if lt7.equals("nao")){
+                    	  
+                    	  System.out.println("Você perdeu");
+                    	  
+                    	  
+                      }   
                       
                       
                       
                       
-                      }               }}
+         }               
+}
